@@ -5,5 +5,8 @@ Rails.application.routes.draw do
   	resources :poos, except: [:new, :edit]
   end
   
+  get '/ui'  => 'ui#index'
+  get '/ui#' => 'ui#index'
+  root "ui#index"
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
