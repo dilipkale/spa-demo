@@ -1,0 +1,1 @@
+json.array! @poos, partial: 'poos/poo', as: :poo
