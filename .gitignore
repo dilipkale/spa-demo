@@ -12,6 +12,6 @@
 /tmp/*
 !/log/.keep
 !/tmp/.keep
-
+/client/build
 # Ignore Byebug command history file.
 .byebug_history
